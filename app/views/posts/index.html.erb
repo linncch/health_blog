@@ -13,8 +13,8 @@
 
 <% else %>
 
-  <h1>There are no posts yet. You can create one and view it here.</h1>
+  <h1><%= t('.no_post') %></h1>
 
 <% end %>
 
-<%= link_to 'New post', new_post_path %>
+<%= link_to t('.new_post_botton'), new_post_path %>
